@@ -1,0 +1,110 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap");
+
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+}
+body {
+    font-family: Montserrat, Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+}
+.head-article {
+    font-size: 50px;
+    color: lightgrey;
+    text-shadow: 0px 0px 15px;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 50px;
+}
+p.date {
+    color: rgba(0, 0, 0, 0.63);
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.date ~ p {
+    color: #212529;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+    margin: 0 auto 40px;
+    padding: 0px 15px 0px 15px;
+    text-align: left;
+    max-width: 670px;
+}
+.topic-text {
+    height: 1000px;
+    overflow: auto;
+}
+div .main-article {
+    color: #212529;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: left;
+    margin: 0px 50px 20px;
+}
+div p {
+    color: #212529;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.link {
+    display: inline-block;
+    color: orange;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.image-sky {
+    max-width: 100%;
+}
+.image-text {
+    color: #7c7c7c;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+.image-container {
+    max-width: 700px;
+    margin: 50px auto 50px;
+}
+.content-image {
+    max-width: 100%;
+}
+h3 {
+    color: #212529;
+    font-size: 24px;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 20px;
+}
+footer p {
+    color: #212529;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.footer-paragraph {
+    color: #212529;
+    font-weight: 900;
+    line-height: 1.6;
+    text-align: center;
+}
+p.forbidden {
+    color: orangered;
+    font-size: 20px;
+    line-height: 1.6;
+    font-weight: 900;
+    margin: 20px;
+    text-align: center;
+}
